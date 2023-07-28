@@ -10,7 +10,8 @@ source:
   sha256: 412b92d3a28211dc5ea8191fc1d95832759e1f24548bc2e8d7c4c0d1d92b904c
 
 build:
-  noarch: python
+  # pymc not available for py38
+  skip: True  # [py<39]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
