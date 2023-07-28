@@ -20,8 +20,9 @@ requirements:
     - python
     - setuptools
     - pip
+    - wheel
   run:
-    - python >=3.8
+    - python
     - arviz >=0.13.0
     - matplotlib-base >=3.5.1
     - numpy {{ numpy }}
