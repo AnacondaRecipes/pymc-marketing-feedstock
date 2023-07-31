@@ -4,3 +4,7 @@ upload_channels:
   - boldorider4-test-channel
 channels:
   - boldorider4-test-channel
+build_parameters:
+  - "--suppress-variables"
+#  - "--skip-existing"
+  - "--error-overlinking"
