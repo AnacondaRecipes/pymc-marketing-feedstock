@@ -32,6 +32,7 @@ requirements:
     - seaborn >=0.12.2
     - xarray
     - xarray-einstats >=0.5.1
+    - pymc-experimental >=0.0.8
 
 test:
   imports:
