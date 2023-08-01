@@ -25,7 +25,7 @@ requirements:
     - python
     - arviz >=0.13.0
     - matplotlib-base >=3.5.1
-    - numpy {{ numpy }}
+    - numpy >=1.17
     - pandas
     - pymc >=5.3.0
     - scikit-learn >=1.1.1
